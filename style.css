@@ -1,0 +1,73 @@
+body {
+  background-color: lightskyblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.countryName {
+  text-align: center;
+  position: relative;
+  top: 80px;
+}
+.cityInput {
+  width: 500px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(240, 231, 231);
+}
+
+.info {
+  position: relative;
+  top: 140px;
+}
+.btn {
+  width: 60px;
+  height: 38px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: rgb(221, 217, 217);
+  transition: 1s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card {
+  width: 50%;
+  background: #e7e7e7;
+  height: 50vh;
+  margin: 40px auto;
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+
+.card h1 {
+  text-align: center;
+  padding: 30px;
+}
+
+.card p {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+@media (max-width: 820px) {
+  .card {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 5px;
+  }
+  .cityInput {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 591px) {
+  .cityInput {
+    margin-bottom: 10px;
+    width: 300px;
+  }
+}
