@@ -38,13 +38,13 @@ button.addEventListener('click', function(){
         humidity.innerHTML = `Humidity: ${humidityValue}%`;
         
         
-    });
+    })
     
     .catch(err =>{
         console.log('check your connection', err);
         alert('Check the City name please');
-    });
-});
+    })
+})
 
 
 
